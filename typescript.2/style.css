@@ -1,0 +1,83 @@
+body { 
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background: linear-gradient(135deg, rgb(87, 2, 2), #000); /* Degradado de bordo a negro */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+
+
+#app {
+    font-family: 'Poppins';
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+
+.equipotribu-negra {
+    font-family: 'Poppins';
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 6px; 
+    background-color: #f9f9f9; 
+}
+.equipotribu-roja{
+    font-family: 'Poppins';
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid rgb(75, 0, 0); 
+    border-radius: 6px; 
+    background-color: #f9f9f9; 
+}
+
+input[type="number"] {
+    font-family: 'Poppins';
+    width: 90%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+}
+
+
+button {
+    font-family: 'Poppins';
+    width: 100%; 
+    padding: 10px;
+    background-color: rgb(52, 0, 0); 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: rgb(110, 9, 9);
+}
+
+
+#resultado {
+    font-family: 'Poppins';
+    margin-top: 1em;
+    padding: 10% 0;
+    background-color: #e9e9e9; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+}
+
+    #app {
+        flex-direction: column;
+        align-items: center;
+    }
+

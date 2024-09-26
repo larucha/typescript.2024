@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de puntos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de puntos en competencias deportivas</h1>
+    <div id="app">
+        <div class="equipo tribu-negra">
+            <h2>TRIBU NEGRA</h2>
+            <input type="number" id="Handball-a" placeholder="Handball">
+            <input type="number" id="Resistencias-a" placeholder="Resistencia">
+            <input type="number" id="Ajedrez-a" placeholder="Ajedrez">
+            <button onclick="Agregarpuntos('TRIBU NEGRA')">Agregar puntos</button>
+        </div>
+    
+        <div class="equipo tribu-roja">
+            <h2>TRIBU ROJA</h2>
+            <input type="number" id="Handball-b" placeholder="Handball">
+            <input type="number" id="Resistencias-b" placeholder="Resistencia">
+            <input type="number" id="Ajedrez-b" placeholder="Ajedrez">
+            <button onclick="Agregarpuntos('TRIBU ROJA')">Agregar puntos</button>
+        </div>
+        <br> 
+        <button id="mostrarResultadosBtn" onclick="mostrarResultados()">Mostrar Resultados</button>
+        <p id="resultado"></p>
+    </div>
+    
+    </div>
+    <script src="competenciatribus.js"></script>
+</body>
+</html>
