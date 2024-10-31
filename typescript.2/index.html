@@ -13,21 +13,28 @@
     <div id="app">
         <div class="equipo tribu-negra">
             <h2>TRIBU NEGRA</h2>
+            <label for="Handball">Handball</label>
             <input type="number" id="Handball-a" placeholder="Handball">
+            <label for="Resistencia">Resistencia</label>
             <input type="number" id="Resistencias-a" placeholder="Resistencia">
+            <label for="Ajedrez">Ajedrez</label>
             <input type="number" id="Ajedrez-a" placeholder="Ajedrez">
-            <button onclick="Agregarpuntos('TRIBU NEGRA')">Agregar puntos</button>
-            <p id="puntos tribu negra">Puntos de la tribu negra: 0</p>
+            <button onclick="Agregarpuntos('tribu negra')">Agregar puntos</button>
+        
         </div>
     
         <div class="equipo tribu-roja">
             <h2>TRIBU ROJA</h2>
+            <label for="Handball">Handball</label>
             <input type="number" id="Handball-b" placeholder="Handball">
+            <label for="Resistencia">Resistencia</label>
             <input type="number" id="Resistencias-b" placeholder="Resistencia">
+            <label for="Ajedrez">Ajedrez</label>
             <input type="number" id="Ajedrez-b" placeholder="Ajedrez">
-            <button onclick="Agregarpuntos('TRIBU ROJA')">Agregar puntos</button>
-            <p id="puntos tribu roja">Puntos de la tribu roja: 0</p>
+            <button onclick="Agregarpuntos('tribu roja')">Agregar puntos</button>
+            
         </div>
+        <br>
         <div>
             <button onclick="mostrarResultados()"> Mostrar Resultados</button>
             <p id="resultados"></p>
