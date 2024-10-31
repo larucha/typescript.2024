@@ -11,8 +11,6 @@
 <body>
     <h1>Registro de puntos en competencias deportivas</h1>
     <div id="app">
-        <label for="discipline">Disciplina:</label>
-        <select id="discipline">
         <div class="equipo tribu-negra">
             <h2>TRIBU NEGRA</h2>
             <input type="number" id="Handball-a" placeholder="Handball">
@@ -30,7 +28,11 @@
             <button onclick="Agregarpuntos('TRIBU ROJA')">Agregar puntos</button>
             <p id="puntos tribu roja">Puntos de la tribu roja: 0</p>
         </div>
-        <p id="highestDiscipline"></p>
+        <div>
+            <button onclick="mostrarResultados()"> Mostrar Resultados</button>
+            <p id="resultados"></p>
+        </div>
+
     <script src="contador.js"></script>
 </body>
 </html>
